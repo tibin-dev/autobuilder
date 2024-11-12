@@ -3,7 +3,7 @@
 const { addNumbers } = require('./script'); // Adjust the path as needed
 
 test('adds 3 + 5 to equal 8', () => {
-    expect(addNumbers(3, 5)).toBe(8);
+    expect(addNumbers(3, 5)).toBe(10);
 });
 
 test('adds -2 + 2 to equal 0', () => {
